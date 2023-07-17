@@ -9,14 +9,14 @@ body.active {
     z-index: -1
 }
 
-.no-js #experience-timeline>div {
+.no-js #education-timeline>div {
     background: #fff;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #dcd9d9
 }
 
-.no-js #experience-timeline>div h3 {
+.no-js #education-timeline>div h3 {
     font-size: 1.5em;
     font-weight: 300;
     color: #374054;
@@ -24,21 +24,21 @@ body.active {
     margin: 0
 }
 
-.no-js #experience-timeline>div h4 {
+.no-js #education-timeline>div h4 {
     font-size: 1.2em;
     font-weight: 300;
     color: #7e8890;
     margin: 0 0 15px 0
 }
 
-.no-js #experience-timeline>div p {
+.no-js #education-timeline>div p {
     color: #74808a;
     font-size: 0.9em;
     margin: 0
 }
 
-.no-js #experience-timeline:before,
-.no-js #experience-timeline:after {
+.no-js #education-timeline:before,
+.no-js #education-timeline:after {
     content: none
 }
 
@@ -675,8 +675,8 @@ footer {
 
 @media only screen and (max-width: 750px) {
 
-    #experience-timeline:before,
-    #experience-timeline:after {
+    #education-timeline:before,
+    #education-timeline:after {
         left: 23px
     }
 
@@ -727,6 +727,11 @@ footer {
 
     #about p {
         text-align: left
+    }
+
+    .project-image img{
+        float: left;
+        width:35%;
     }
 }
 
